@@ -1,4 +1,4 @@
-package com.qa.Operators;
+package com.qa.operators;
 public class Operators {
 //	Addition
 	public static void main(String[] args) {

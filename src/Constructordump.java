@@ -1,5 +1,6 @@
 import com.qa.constructor.Moterbike;
-import com.qa.constructor.Motrbike;
+
+import qa.com.constructor.Motrbike;
 
 public class Constructordump {
 

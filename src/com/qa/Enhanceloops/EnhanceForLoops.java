@@ -2,7 +2,7 @@ package com.qa.Enhanceloops;
 import java.util.ArrayList;
 import java.util.List;
 
-public class enhanceForLoops {
+public class EnhanceForLoops {
 	
 //Create a method that returns a boolean and accepts an integer as a parameter,
 //if the integer is even, return true, if not then return false.
