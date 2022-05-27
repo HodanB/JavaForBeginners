@@ -47,7 +47,5 @@ public class ArraysList {
 		        for (int a : percentageGrade) {
 		            System.out.println(a);
 		        }
-		//using the reverse(), swap() and clear() methods.
-		      
-			}
-		}
+}
+}
