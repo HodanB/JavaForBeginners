@@ -12,7 +12,7 @@ public class Student {
 	    double  maxMarks = totalChemistryMarks + totalBiologyMarks + totalPhysicsMarks;
 	        
 	    	double totalMarks = biologyMark + chemistryMark + physicsMark;
-	    	double percentageResult =roundToTwoDecimalPlaces((totalMarks / maxMarks) * 100);
+	    	double percentageResult =round((totalMarks / maxMarks) * 100);
 	    	
 	        
 	        System.out.println("The student achieved " + physicsMark + " in physics, " + (biologyMark) + " in biology and " + 
@@ -20,7 +20,7 @@ public class Student {
 	        System.out.println("Their overall percantage is " + (percentageResult));
 	}
 
-	private static double roundToTwoDecimalPlaces(double percentageResult) {
+	private static double round(double percentageResult) {
 		return Math.floor(percentageResult);
 	}
 	}
