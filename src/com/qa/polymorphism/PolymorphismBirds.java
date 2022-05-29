@@ -8,7 +8,7 @@ class Bird {
 }
 class Pigeon extends Bird{
 	public void sing () {
-		System.out.println("But pigeons sing like this Oi tweet you");
+		System.out.println("But pigeons sing like this tweet Oi you tweet ");
 	}
 }
 
